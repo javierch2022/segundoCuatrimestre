@@ -1,0 +1,5 @@
+ejecutar comando node
+/////////////////////////
+instalar modulos de node 
+1-npm install (nombre de paquete)
+2- node (nombre del archivo a ejecutar)
