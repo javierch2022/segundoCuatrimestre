@@ -2,16 +2,16 @@
 
 class Televisor{
     // variables
-    public estaPrendido:boolean;
-    public volumenActual:number;
-    public canalActual:number;
-    public modelo:number;
-    public marca:string;
+    private estaPrendido:boolean;
+    private volumenActual:number;
+    private canalActual:number;
+    private modelo:number;
+    private marca:string;
 
     //constructor de objeto, sirve para diferencias instancias 
 
     constructor(parametroPrendido:boolean, parametroVolumen:number, parametroCanal:number, parametroModelo:number, parametroMarca:string){
-        //aqui van las variables publicas + = + variables del constructor
+        //aqui van las variables privateas + = + variables del constructor
         this.estaPrendido = parametroPrendido;
         this.volumenActual = parametroVolumen;
         this.canalActual = parametroCanal;

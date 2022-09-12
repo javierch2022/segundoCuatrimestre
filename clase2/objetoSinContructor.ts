@@ -2,11 +2,11 @@
 
 class Televisor1{
     // variables
-    public estaPrendido:boolean;
-    public volumenActual:number;
-    public canalActual:number;
-    public modelo:number;
-    public marca:string;
+    private estaPrendido:boolean;
+    private volumenActual:number;
+    private canalActual:number;
+    private modelo:number;
+    private marca:string;
 
 
     //funcion prender apagar

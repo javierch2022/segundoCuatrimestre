@@ -5,10 +5,10 @@
 // celular
 class Celular{
     //variables
-    public marca:string;
-    public modelo:string;
-    public precio:number;
-    public estadoNuevo:boolean;
+    private marca:string;
+    private modelo:string;
+    private precio:number;
+    private estadoNuevo:boolean;
 
     constructor(pMarca:string, pModelo:string, pPrecio:number, pEstado:boolean){
         //aqui van las variables publicas + = + variables del constructor
