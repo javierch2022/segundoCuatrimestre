@@ -29,7 +29,8 @@ llamarNota():boolean{
 }
 
 let verAlumno= new Lista("ingles", "javier Chavarria", 10);
-let verAlumno1= new Lista("ingles", "javier Chavarria", 3);  
+let verAlumno1= new Lista("ingles", "javier Chavarria", 3); 
+
 
 let notaJose= verAlumno.llamarNota();
 
@@ -37,6 +38,8 @@ if (notaJose = true){
     console.log(`Alumno ${verAlumno.llamarAlumno()} Aprobado`)
 }else{console.log(`alumno ${verAlumno.llamarAlumno()}Desaprobado`)};
 
+////////////////////////////////////////////////////////////////////////////////////////////////
 
+class Editar{
 
-
+}

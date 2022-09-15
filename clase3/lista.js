@@ -23,6 +23,8 @@ var Lista = /** @class */ (function () {
 var verAlumno = new Lista("ingles", "javier Chavarria", 10);
 var verAlumno1 = new Lista("ingles", "javier Chavarria", 3);
 var notaJose = verAlumno.llamarNota();
+
+
 if (notaJose = true) {
     console.log("Alumno :" + verAlumno.llamarAlumno() + " Aprobado");
 }
