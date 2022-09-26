@@ -37,9 +37,10 @@ var SistemaEducativo = /** @class */ (function () {
     }
     return SistemaEducativo;
 }());
+// para ve rel listado de almno
 var alumno1 = new Listado('Javier Chavarria');
 var alumno2 = new Listado('Erika Gramuglia');
 var alumno3 = new Listado('Emiliano Gonzalez');
 var listadoAlumno = [alumno1, alumno2, alumno3];
-console.log(listadoAlumno);
+console.log("El listado es :" + listadoAlumno);
 // segunda consulta ver nota del alumno
