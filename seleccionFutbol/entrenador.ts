@@ -15,6 +15,8 @@ export class Entrenador extends Persona{
             this.nacionalidad=nacionalidad;
         }
 }
+
+
 // Prueba de código
 /*
 let entrenador1: Entrenador = new Entrenador ("Sergio", "Alvarez","argentino");

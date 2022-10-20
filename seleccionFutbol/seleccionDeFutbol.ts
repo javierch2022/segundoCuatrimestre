@@ -12,3 +12,4 @@ export class SeleccionDeFutbol {  //la clase seleccionDeFutbol compone a las cla
             this.nombreSeleccion=nombreSeleccion;
         }
  }
+

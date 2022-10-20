@@ -10,9 +10,10 @@ function sumarValores(valores:number[]):number{
 
     let sumaTotal= 0;
 
-    for(let i:number = 0; i< valores.lenght;i++){
+    for(let i:number = 0; i< valores.length;i++){
         sumaTotal= sumaTotal + valores[i];
     }
+    //////////////////////
     if(sumaTotal>20){
         throw new Error ('la suma supera el numero 20');
     }
@@ -20,9 +21,8 @@ function sumarValores(valores:number[]):number{
     return sumaTotal;
 }   
 //comienzo del main
-let valores:number[]=[4,5,6,7,8] ;
+let valores:number[]=[4,5,7,8] ;
 let resultado:number;
-
 
 
 // aqui ejecucion del programa y captura del error
